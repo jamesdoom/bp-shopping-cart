@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav li {
+    display: inline;
+  }
+
+  .checkout_button {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #ABD9FF;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout_button:hover{
+    background-color: #997aff;
+    color: white;
+   
+  }

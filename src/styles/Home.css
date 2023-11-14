@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.main-nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #ABD9FF;
+  transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+  background-color: #997aff;
+  color: white;
+ 
+}
